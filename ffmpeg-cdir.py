@@ -3,7 +3,7 @@ import os,shutil,sys
 import telegram             # require python-telegram-bot module
 
 def ffmpeg_encoding():
-    myToken = <token>
+    myToken = <Token>
     myChatId = <ChatId>
     if not os.path.isdir('encoded'):
         os.mkdir('encoded')
