@@ -5,4 +5,4 @@ for i in range(1, number):
         if i % j == 0:
             count += 1
     if count == 2:
-        print(i, '')
+        print(i)
